@@ -5,8 +5,9 @@ public class SeatingChart {
         System.out.println("Enter your name:");
         String name = sc.nextLine();
         System.out.println("Enter the number of absences.");
+        int absences = sc.nextInt();
 
-        Student s = new Student(name, 0);
+        Student s = new Student(name, absences);
         Student[][] seats = new Student[3][4];
 
 
